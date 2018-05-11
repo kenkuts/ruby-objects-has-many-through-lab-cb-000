@@ -1,4 +1,4 @@
-class Genre 
+class Genre
   attr_accessor :name, :songs
 
   def initialize(name)
@@ -6,5 +6,5 @@ class Genre
     @songs = []
   end
 
-  
-end 
+  def add_song(song)
+end
