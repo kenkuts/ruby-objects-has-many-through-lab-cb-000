@@ -18,10 +18,12 @@ class Patient
 end
 
 =begin
-  initializes - Takes in the name but declares an empty array
+  initializes - Takes in the name and declares an empty appointments array
 
   add_appointment - Takes in an appointment argument and shoves
       the object into the Patient class' appointments array.
+      Since the patient can have many appointments this is a one-to-many
+      relationship. 
       At the same time the method is declaring that this
       appointments patient instance variable is the patient class
       itself. 
