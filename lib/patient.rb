@@ -17,6 +17,15 @@ class Patient
 
 end
 
-=begin 
-  
+=begin
+  initializes - Takes in the name but declares an empty array
+
+  add_appointment - Takes in an appointment argument and shoves
+      the object into the Patient class' appointments array.
+      At the same time the method is declaring that this
+      appointments patient instance variable is the patient class
+      itself. 
+
+  doctors - This method creates an array of doctor instances from the
+      appointments doctor instance variables.
 =end
