@@ -12,7 +12,4 @@ class Patient
     @doctors << appointment.doctor
   end
 
-  def
-
-
 end
