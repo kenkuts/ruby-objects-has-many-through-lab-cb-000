@@ -28,6 +28,6 @@ end
       appointments patient instance variable is the doctor class
       itself.
 
-  doctors - This method creates an array of doctor instances from the
-      appointments doctor instance variables.
+  patients - This method creates an array of patient instances from the
+      appointments patients instance variables.
 =end
